@@ -1,0 +1,17 @@
+{
+  "cxxNamespace": ["nitrotimer"],
+  "ios": {
+    "iosModuleName": "NitroTimer"
+  },
+  "android": {
+    "androidNamespace": ["nitrotimer"],
+    "androidCxxLibName": "nitrotimer"
+  },
+  "autolinking": {
+    "NitroTimer": {
+      "swift": "HybridNitroTimer",
+      "kotlin": "HybridNitroTimer"
+    }
+  },
+  "ignorePaths": ["node_modules"]
+}
